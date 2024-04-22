@@ -28,7 +28,7 @@ setup(
     packages=setuptools.find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     install_requires=[
         "requests",
-        "kanjize",
+        "kanjize>=1.4.0",
         "cachetools"
     ],
     python_requires=">=3.8",
